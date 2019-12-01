@@ -1,0 +1,33 @@
+.container{
+    margin-top: 60px;
+}
+
+#input{
+    float: left;
+    margin-bottom: 0px !important;
+    padding-left: 0;
+}
+
+#time{
+    font-size: 14px;
+    margin:0px !important;
+    text-align: right;
+    padding: 13px;
+    border-top:1px solid #a9a5a5d4;
+    border-bottom:1px solid #a9a5a5d4;
+}
+
+button{
+    color: #2f9a82;
+    background-color: #17dcdc94;
+
+}
+
+#header{
+    padding: 50px 450px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+
+
