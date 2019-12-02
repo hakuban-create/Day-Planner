@@ -3,6 +3,8 @@ $(document).ready(function(){
 
 var currentTime=moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#current-time").html(currentTime);
+
+//displayEntries();
 setColors();
 
 
@@ -31,6 +33,11 @@ function setColors(){
     }
 }
 
+$("button").on('click',function(){
+var time=$(this).parent().parent().children().attr("id");
+var value=$(this).parent().parent().children().val();
+localStorage.setItem("Day_Planner_"+time,value);
+});
 
 
 
